@@ -1,14 +1,18 @@
-/* Copyright (C) 2020-2023 Aditya Shakya <adi1090x@gmail.com> */
+/**
+ *
+ * Author : Aditya Shakya (adi1090x)
+ * Github : @adi1090x
+ * 
+ * Colors
+ *
+ * Available Colors Schemes
+ *
+ * adapta    catppuccin    everforest    navy       paper
+ * arc       cyberpunk     gruvbox       nord       solarized
+ * black     dracula       lovelace      onedark    yousai
+ *
+ **/
 
-/* Colors */
+/* Import color-scheme from `colors` directory */
 
-* {
-  background:    #1a1b26;
-  background-alt: #16161e;
-  //border:        #89ddff;
-  border:        #7aa2f7;
-  foreground:    #c0caf5;
-  selected:      #7aa2f7;
-  active:        #7aa2f7;
-  urgent:        #f7768e;
-}
+@import "~/.config/rofi/colors/tokyonight.rasi"
