@@ -8,7 +8,7 @@
 ######################################################################
 
 # set background
-output * bg /home/kalid/.config/backgrounds/001.jpg fill
+output * bg $HOME/.config/backgrounds/001.jpg fill
 
 
 # include custom sway config
